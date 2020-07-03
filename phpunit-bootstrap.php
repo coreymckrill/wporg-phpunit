@@ -2,6 +2,7 @@
 
 define( 'WP_PLUGIN_DIR', __DIR__ . '/public_html/wp-content/plugins' );
 define( 'WP_MU_PLUGIN_DIR', __DIR__ . '/public_html/wp-content/mu-plugins' );
+define( 'PLUGINS_TABLE_PREFIX', 'wp_' );
 
 $_tests_dir = getenv( 'WP_TESTS_DIR' );
 
@@ -17,9 +18,8 @@ if ( ! file_exists( $_tests_dir . '/includes/functions.php' ) ) {
 // Give access to tests_add_filter() function.
 require_once $_tests_dir . '/includes/functions.php';
 
-/*
- * Load individual plugin bootstrappers
- *
+/**
+ * Load individual plugin bootstrappers.
  */
 require_once WP_PLUGIN_DIR . '/plugin-directory/tests/bootstrap.php';
 require_once WP_PLUGIN_DIR . '/wporg-5ftf/tests/bootstrap.php';

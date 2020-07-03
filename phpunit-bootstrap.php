@@ -22,7 +22,8 @@ require_once $_tests_dir . '/includes/functions.php';
  * Load individual plugin bootstrappers.
  */
 require_once WP_PLUGIN_DIR . '/plugin-directory/tests/bootstrap.php';
-require_once WP_PLUGIN_DIR . '/wporg-5ftf/tests/bootstrap.php';
+// 5ftf tests are currently ignored in the SVN repo.
+//require_once WP_PLUGIN_DIR . '/wporg-5ftf/tests/bootstrap.php';
 require_once WP_PLUGIN_DIR . '/wporg-meeting-calendar/tests/bootstrap.php';
 
 require_once $_tests_dir . '/includes/bootstrap.php';

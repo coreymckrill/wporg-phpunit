@@ -16,11 +16,13 @@
 				./public_html/wp-content/plugins/plugin-directory/tests/phpunit/tests/
 			</directory>
 		</testsuite>
+		<!-- The tests for this are currently ignored in the SVN repo.
 		<testsuite name="Five For The Future">
 			<directory prefix="test-" suffix=".php">
 				./public_html/wp-content/plugins/wporg-5ftf/tests/
 			</directory>
 		</testsuite>
+		-->
 		<testsuite name="Meeting Calendar">
 			<directory prefix="test-" suffix=".php">
 				./public_html/wp-content/plugins/wporg-meeting-calendar/tests/

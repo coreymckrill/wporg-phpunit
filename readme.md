@@ -1,10 +1,10 @@
-## Testing with PHPUnit
+## Setup
 
 1. Create a `public_html` directory in the root of this project (it will be ignored by git):
     ```bash
     mkdir public_html
     ```
-1. Check out the `wp-content` directory for dotorg:
+1. Check out dotorg's `wp-content` directory within `public_html`:
     ```bash
     svn co https://dotorg.svn.wordpress.org/wordpress/website/wp-content public_html/wp-content
    ```
